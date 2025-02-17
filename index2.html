@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rewgitro de usuario</title>
+</head>
+<body>
+    <h1>Registro de ususario</h1>
+    <form action="#">
+        <span>Apellidos</span><input type="text" name="apellido" placeholder="Apellidos">
+        <span>Edad</span><input type="text" name="edad" placeholder="Edad"><br>
+        <span>Email</span><input type="email" name="correo" placeholder="Email">
+        <span>Contraseña</span><input type="password" name="clave" placeholder="Contreaseña">
+        <span>Nombres</span><input type="text" name="nombre" placeholder="Nombres">
+    </form>
+
+    <h2>Genero:</h2>
+    <form action="#">
+        <input type="radio" name="genero"><span>Masculino</span>
+        <input type="radio" name="genero"><span>Femenino</span>
+        <input type="radio" name="genero"><span>Otro</span>
+    </form>
+
+    <h2>Seleccione un dispositivo:</h2>
+    <form action="#">
+        <input type="checkbox" name="dispositivo"><span>Macbook</span>
+        <input type="checkbox" name="dispositivo"><span>Iphone</span>
+        <input type="checkbox" name="dispositivo"><span>ipad</span>
+        <input type="checkbox" name="dispositivo"><span>Windows</span>
+        <input type="checkbox" name="dispositivo"><span>Android</span><br>
+        <span>¿Como escuchaste sobre nosotros?</span><select name="opciones" id="opciones"><br>
+            <option value="Redes">Redes</option>
+            <option value="Amigo">Amigo</option>
+            <option value="Instagram">Instagram</option>
+            <option value="Otro">Otro</option><br>
+            <span>Quiero recibir notificaciones de promociones</span><input type="checkbox" name="promociones"><br>
+            <input type="button" value="Registrarme">
+        </select>
+    </form>
+</body>
+</html>
